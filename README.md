@@ -33,6 +33,8 @@
 ## Deploy 🚀
 - [![Heroku](https://telegra.ph/file/dc77788223d79180ec812.jpg)](#Deploy-To-Heroku)
 
+- [![Railway](https://telegra.ph/file/35716b59cc180e4f282a4.jpg)](#Deploy-on-Railway)
+
 - [![Locally](https://telegra.ph/file/15027ba18429789a77255.jpg)](#Deploy-Locally)
 
 ------
@@ -45,19 +47,20 @@
 ## Deploy To Heroku
 - Get All The Necessary Variables And Deploy To Heroku.
 - Some Mandatory Variables Are listed [Here](#Variables).
-- Fork this repo and click on below button to get access of deploy page.
+- Fork & Star this repo.
+- Click on below button to access deploy page.
+- NOTE: Click on deploy button from your fork only.
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ------
-<!--
 ## Deploy on Railway
 - Get all the necessary variables and deploy on railway.
 - Every mandatory variables are listed [Here](#Variables).
-- Please note that some commands (Mostly Heroku Based Commands) are not supported for railways yet. Don't worry!! I'll port them in next update. Stay tuned !!
-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FHellBoy-OP%2FHellBot&plugins=postgresql&envs=APP_ID%2CAPI_HASH%2CHELLBOT_SESSION%2CBOT_TOKEN%2CBOT_USERNAME%2CLOGGER_ID&APP_IDDesc=Get+it+from+my.telegram.org%2Fapi&API_HASHDesc=Get+it+from+my.telegram.org%2Fapi&HELLBOT_SESSIONDesc=Make+a+string+session+and+paste+it+here.+See+repo+for+more+details.&BOT_TOKENDesc=Make+a+bot+from+%40botfather+and+paste+the+token+here&BOT_USERNAMEDesc=Paste+the+username+of+bot+created+by+%40Botfather&LOGGER_IDDesc=Make+a+private+channel+and+get+it%27s+id+from+%40Hell_id_bot+and+paste+that+id+here&referralCode=HELLBOT_IS_LIT)
+- Fork & Star this repo.
+- Some commands might not work properly on railway.
+- Due to railway's privacy policy I removed railway button from repo. But you can get deploy guide in our [@HellBot_Chat](https://t.me/hellbot_chat). Type `#railway` to get deploy guide.
 
 ------
--->
 ## Deploy Locally
 
 - Clone the repo. 
@@ -88,9 +91,9 @@
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
 - `HELLBOT_SESSION`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
-- `LOGGER_ID`  =  Make A Channel And Get it's ID.
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
-- `BOT_USERNAME`  =  Get the username of that Bot made from [@Botfather](https://t.me/botfather)
+- `HANDLER`  =  Your command handler.
+- `DATABASE_URL`  =  A Postgresql database url.
 
 ------
 ## HellBot Session
@@ -103,13 +106,14 @@
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
 - Your HellBot Session Will be saved in your Telegram Saved Message.
+- There's a bug in repl which prints your input twice or more. You need to long tap and paste the required information in repl.
 - [![Replit](https://telegra.ph/file/68aacf214a17e366d9b60.jpg)](https://replit.com/@TheHellBot/HellBot?v=1)
 
 ### Terminal
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/The-HellBot/Plugins/master/hell_string.py && python3 hell_string.py`
+`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/The-HellBot/HellBot/master/hell_string.py && python3 hell_string.py`
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
@@ -131,7 +135,7 @@
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-<h4 align="center">Copyright (C) 2021 <a href="https://github.com/The-HellBot">The-HellBot</a></h4>
+<h4 align="center">Copyright (C) 2022 <a href="https://github.com/The-HellBot">The-HellBot</a></h4>
 
 Project [HellBot](https://github.com/The-HellBot/HellBot) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -148,6 +152,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## Credits
 
 - 💖 [Lonami](https://github.com/Lonami) for [Telethon](https://github.com/LonamiWebs/Telethon)
-- 💖 My Team Members For Supporting Me.
+- 💖 Team HellBot
 
 ------
